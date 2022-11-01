@@ -24,7 +24,7 @@ jobs:
         whereis pip
         which pip
     - name: Build manylinux Python wheels
-      uses: mxdlzg/python-wheels-manylinux-build@v1.0.0
+      uses: mxdlzg/python-wheels-manylinux-build@v1.1.0
       with:
         python-versions: '3.8.14'
         build-requirements: 'numpy'
